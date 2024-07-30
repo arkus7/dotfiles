@@ -1,0 +1,144 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5",
+  "schemes" : [
+    {
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : true,
+          "horizontal" : false
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "pointer" : {
+        "acceleration" : 0.9534,
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "serialNumber" : "34F0F6FD",
+          "category" : "mouse",
+          "productID" : "0xc090",
+          "productName" : "G703 LIGHTSPEED Wireless Gaming Mouse w\/ HERO"
+        }
+      },
+      "scrolling" : {
+        "distance" : "auto",
+        "reverse" : {
+          "vertical" : true,
+          "horizontal" : false
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : true
+      }
+    },
+    {
+      "pointer" : {
+        "acceleration" : 1.0004
+      },
+      "if" : {
+        "device" : {
+          "productName" : "USB Receiver",
+          "productID" : "0xc539",
+          "category" : "mouse",
+          "vendorID" : "0x46d"
+        }
+      }
+    },
+    {
+      "pointer" : {
+        "disableAcceleration" : false,
+        "speed" : 0.1017,
+        "acceleration" : 1.0074
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1.09
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productName" : "USB Receiver",
+          "productID" : "0xc52b",
+          "vendorID" : "0x46d"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "vendorID" : "0xa8f8",
+          "productID" : "0x1832",
+          "productName" : "Charybdis Nano (3x5) Splinky",
+          "category" : "mouse"
+        }
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "acceleration" : {
+          "vertical" : 0.65
+        },
+        "reverse" : true
+      },
+      "pointer" : {
+        "speed" : 0.0995,
+        "acceleration" : 1,
+        "disableAcceleration" : false
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productID" : "0x0",
+          "category" : "trackpad",
+          "productName" : "Apple Internal Keyboard \/ Trackpad",
+          "vendorID" : "0x0"
+        }
+      },
+      "pointer" : {
+        "speed" : 0.069,
+        "acceleration" : 0.6796
+      }
+    },
+    {
+      "pointer" : {
+        "acceleration" : 0,
+        "speed" : 0.2385,
+        "disableAcceleration" : false
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x3a30",
+          "productName" : "SterlingKey™ Charybdis Nano",
+          "category" : "mouse",
+          "productID" : "0xd281"
+        }
+      }
+    }
+  ]
+}
