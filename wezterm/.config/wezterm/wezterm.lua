@@ -13,10 +13,10 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'AlienBlood'
-config.color_scheme = 'Atom'
-config.color_scheme = 'Arthur'
-
+-- config.color_scheme = 'AlienBlood'
+-- config.color_scheme = 'Atom'
+-- config.color_scheme = 'Arthur'
+config.color_scheme = 'Catppuccin Macchiato'
 
 
 -- config.font = wezterm.font 'JetBrains Mono'
@@ -32,4 +32,3 @@ config.font_size = 17.0
 
 -- and finally, return the configuration to wezterm
 return config
-
