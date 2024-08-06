@@ -277,11 +277,6 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
--- [[ Folding ]]
-vim.opt.foldmethod = "expr"
-vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
-vim.opt.foldtext = "v:lua.vim.treesitter.foldtext()"
-
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
