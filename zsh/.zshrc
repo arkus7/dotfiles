@@ -120,7 +120,7 @@ export PATH="$HOME/bin:$PATH"
 
 #nvim
 #alias nvim="nvim-kickstart"
-#alias vim="nvim"
+alias vim="nvim"
 
 # terravision
 export PATH="$PATH:$HOME/Projects/terravision"
