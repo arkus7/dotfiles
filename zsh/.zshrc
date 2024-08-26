@@ -153,3 +153,7 @@ compdef _gt_yargs_completions gt
 # This section can be safely removed at any time if needed.
 [[ ! -r '/Users/arkus/.opam/opam-init/init.zsh' ]] || source '/Users/arkus/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
 # END opam configuration
+
+
+## FZF
+source <(fzf --zsh)
