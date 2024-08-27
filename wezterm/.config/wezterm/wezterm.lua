@@ -18,7 +18,6 @@ end
 -- config.color_scheme = 'Arthur'
 config.color_scheme = 'Catppuccin Macchiato'
 
-
 -- config.font = wezterm.font 'JetBrains Mono'
 
 config.font = wezterm.font_with_fallback {
@@ -27,7 +26,11 @@ config.font = wezterm.font_with_fallback {
   'FontAwesome',
 }
 
-config.font_size = 17.0
+config.enable_tab_bar = false
+config.window_decorations = "RESIZE" -- disable the title bar but enable the rezizable border
+
+config.font_size = 15.0
+config.adjust_window_size_when_changing_font_size = false
 
 
 -- and finally, return the configuration to wezterm
