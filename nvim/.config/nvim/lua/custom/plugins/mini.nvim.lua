@@ -15,6 +15,7 @@ return {
 		-- - saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
 		-- - sd'   - [S]urround [D]elete [']quotes
 		-- - sr)'  - [S]urround [R]eplace [)] [']
+		vim.keymap.set("n", "s", "<Nop>", { noremap = true, silent = true })
 		require('mini.surround').setup()
 
 		-- Simple and easy statusline.
