@@ -1,3 +1,4 @@
 theme = catppuccin-macchiato
 font-family = "JetBrains Mono"
+font-thicken=true
 font-size = 18 
