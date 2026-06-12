@@ -167,6 +167,13 @@ esac
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/grr grr
+
+# alman - alias manager https://github.com/vaibhav-mattoo/alman
+eval "$(alman init zsh)"
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/arkus/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/arkus/google-cloud-sdk/path.zsh.inc'; fi
 
